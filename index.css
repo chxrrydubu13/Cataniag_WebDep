@@ -85,6 +85,42 @@ ul li a {
 		margin-right: 1rem;
 	}
 
+/* navbar media query */
+
+@media (max-width: 100%) {
+    /* Styles for 100% width */
+    .ck-nav input[type="text"] {
+      width: 100%;
+      margin-right: 0;
+    }
+  }
+  
+  @media (max-width: 90%) {
+    /* Styles for 90% width */
+    .ck-nav input[type="text"] {
+      width: 90%;
+      margin-right: 0;
+    }
+  }
+  
+  @media (max-width: 80%) {
+    /* Styles for 80% width */
+    .ck-nav input[type="text"] {
+      width: 80%;
+      margin-right: 0;
+    }
+  }
+  
+  @media (max-width: 75%) {
+    /* Styles for 75% width */
+    .ck-nav input[type="text"] {
+      width: 75%;
+      margin-right: 0;
+    }
+  }
+
+  /* navbar letters */
+
 	.ck-nav {
 		width: 100%;
 		position: absolute;
@@ -126,6 +162,49 @@ ul li a {
 		color: var(--main-color);
 	}
 	
+/* navbar letters query */
+
+@media (max-width: 1250px) {
+    /* Styles for 125% width */
+    .ck-navbar {
+      margin-left: 200px;
+    }
+  }
+  
+  @media (max-width: 1100px) {
+    /* Styles for 110% width */
+    .ck-navbar {
+      margin-left: 180px;
+    }
+  }
+  
+  @media (max-width: 1000px) {
+    /* Styles for 100% width */
+    .ck-navbar {
+      margin-left: 160px;
+    }
+  }
+  
+  @media (max-width: 900px) {
+    /* Styles for 90% width */
+    .ck-navbar {
+      margin-left: 140px;
+    }
+  }
+  
+  @media (max-width: 800px) {
+    /* Styles for 80% width */
+    .ck-navbar {
+      margin-left: 120px;
+    }
+  }
+  
+  @media (max-width: 750px) {
+    /* Styles for 75% width */
+    .ck-navbar {
+      margin-left: 110px;
+    }
+  }
 	
 .content {
     text-align: center;
@@ -277,7 +356,8 @@ ul li a {
     margin-right: 1rem;
 }
 
-/* Media Queries */
+/* Media Queries service */
+
 @media screen and (max-width: 100%) {
     .info-ser {
         margin-left: 5%;
@@ -373,6 +453,8 @@ ul li a {
     color: var(--bg-color);
     background: var(--second-color);
 }
+
+
 
 /* Media Queries */
 
@@ -473,7 +555,6 @@ ul li a {
         margin-bottom: 20px;
         font-size: 22px;
     }
-}
 
 @media (min-resolution: 0.5dpcm) and (max-resolution: 0.74dpcm) {
     /* Styles for 50% to 74% zoom level */
