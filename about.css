@@ -222,7 +222,7 @@ ul li a {
 .about .about-row .about-image img {
     margin-top: 2%;
     width: 80%;
-    padding-left: 15rem;
+    padding-left: 5rem;
 }
 
 .about .about-row .about-content {
@@ -286,7 +286,7 @@ ul li a {
 }
 
 .count .card-container .card .card-content p {
-    font-size: 1.6rem;
+    font-size: 1.6rem;  
     color: var(--text-color);
 }
 
